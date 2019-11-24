@@ -936,7 +936,8 @@ INSERT INTO `system_settings` (`id`, `name`, `value_int`, `value_string`) VALUES
 (6, 'aql_threshold_std', 0, '1333.77'),
 (7, 'aql_threshold_taiko', 0, '1333.77'),
 (8, 'aql_threshold_ctb', 0, '1333.77'),
-(9, 'aql_threshold_mania', 0, '1333.77');
+(9, 'aql_threshold_mania', 0, '1333.77'),
+(10, 'ccreation_enabled', 1, 'nothing';
 --
 -- Table structure for table `tokens`
 --
