@@ -272,7 +272,7 @@ CREATE TABLE `bancho_settings` (
 INSERT INTO `bancho_settings` (`id`, `name`, `value_int`, `value_string`) VALUES
 (1, 'bancho_maintenance', 0, ''),
 (2, 'free_direct', 1, ''),
-(3, 'menu_icon', 1, 'https://i.ppy.sh/logo.png | https://ainu.pw'),
+(3, 'menu_icon', 1, 'https://shibui.pw/static/logos/text-black.png | https://discord.gg/vY29JhD'),
 (4, 'login_messages', 1, ''),
 (5, 'restricted_joke', 0, 'You\'re banned from the server.'),
 (6, 'login_notification', 1, 'Welcome to Shibui!'),
@@ -533,6 +533,9 @@ CREATE TABLE `main_menu_icons` (
   `name` varchar(256) NOT NULL,
   `url` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `main_menu_icons` (`id`, `is_current`, `file_id`, `name`, `url`) VALUES
+(1, 1, 'pMeA6zqWCu4Da3NFAyA1duhWbO50Gwzu', 'shibui', 'https://discord.gg/vY29JhD');
 
 -- --------------------------------------------------------
 
